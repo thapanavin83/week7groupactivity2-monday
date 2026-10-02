@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
-  },
+ "scripts": {
+  "start": "node index.js",
+  "dev": "nodemon index.js",
+  "test": "vitest run"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.14",
-    "supertest": "^7.3.0",
-    "vitest": "^5.0.2"
+    "supertest": "^7.3.1",
+    "vitest": "^5.0.3"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
